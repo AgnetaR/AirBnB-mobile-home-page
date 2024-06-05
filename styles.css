@@ -10,7 +10,7 @@
     margin-left: 2%;
     margin-right: 2%;
     margin-top: 1%;
-    margin-bottom: 0%;
+    margin-bottom: 4%;
     cursor: pointer;
     box-shadow: 2px 2px 8px rgba(0,0,0, 0.1);
     padding-top: 0px;
@@ -39,8 +39,36 @@
 .button-icon {
     width: 29px;
     padding-right: 10px;
-
 }
 
+
+.icons-row {
+    display: flex;
+    align-items: center;
+}
+
+.icons-row button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    padding: 0px;
+    border-style: none;
+    background-color: white;
+    margin-right: 20px;
+}
+
+.icons-row button img {
+    display: block;
+    width: 30px; 
+    height: 30px;
+    border: none;
+    background-color: white;
+}
+
+.icons-row button p {
+    margin: 0;
+    padding: 0; 
+}
 
 
