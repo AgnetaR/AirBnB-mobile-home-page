@@ -23,7 +23,7 @@ margin-left: 3px;
     align-items: center;
 
 }
-.where {
+.where-to-text {
     display: flex;
     font-size: 14px;
     font-weight: 500;
@@ -32,7 +32,7 @@ margin-left: 3px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
    
 }
-.aaa {
+.any-any-add-text {
     display: flex;
     font-size: 12px;
     color: gray;
@@ -46,13 +46,13 @@ margin-left: 3px;
 }
 
 
-.icons-row {
+.top-page-icons-row {
     display: flex;
     align-items: center;
     
 }
 
-.icons-row button {
+.top-page-icons-row button {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -63,7 +63,7 @@ margin-left: 3px;
     margin-right: 20px;
 }
 
-.icons-row button img {
+.top-page-icons-row button img {
     display: block;
     width: 20px; 
     height: 20px;
@@ -71,18 +71,18 @@ margin-left: 3px;
     background-color: white;
 }
 
-.icons-row button p {
+.top-page-icons-row button p {
     margin: 0;
     padding: 0;
     margin-bottom: 10px;
 }
-.image-container {
+.property-image-container {
     overflow: hidden;
     width: 402px;
     height: 480px;
     border-radius: 20px;
 }
-.image {
+.property-image {
     margin-top: 10px;
     border-radius: 15px;
     object-fit: cover;
@@ -92,11 +92,12 @@ margin-left: 3px;
     margin-bottom: 10px;
 }
 
-.container p {
+.property-container p {
     margin: 0;
+    margin-bottom: 4px;
 }
 
-.property-name, .host-name, .price {
+.property-name, .host-name, .property-price {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -124,17 +125,15 @@ margin-left: 3px;
 .button-search {
     width: 40px;
 }
-.container p {
-    margin-bottom: 4px;
-}
-.scroll-bar p {
+
+.airbnb-more-location-type-panel p {
 display: inline-block;
 margin-right: 20px;
 font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-margin-bottom: 10px;
+margin-bottom: 0px;
 }
 
-.inspiration {
+.inspiration-for-future-text {
     font-size: 24px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
@@ -164,7 +163,7 @@ font-size: 13px;
     grid-template-columns: 1fr 1fr;
 }
 
-.gray-block {
+.airbnb-more-locations-panel {
     background-color: rgb(249, 249, 249);
     box-sizing:content-box;
 }
@@ -174,7 +173,7 @@ font-size: 13px;
     font-weight: 600;
     font-size: 14px;
 }
-.support-box {
+.support-panel-box {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 14px;
     color: rgb(41, 41, 41);
@@ -182,7 +181,7 @@ font-size: 13px;
     margin-bottom: 25px;
     margin-top: 25px;
     }
-.support, .hosting, .airbnb {
+.support-text, .hosting-text, .airbnb-text {
     font-weight: 600;
     }
 .company-crediantials {
@@ -206,24 +205,21 @@ font-size: 13px;
     margin-right: 20px;
 }
 
-.details {
+.airbnb-legal-details {
     margin: 0;
     padding: 0;   
 }
-.details p {
+.airbnb-legal-details p {
     display: inline;
+    margin-right: 5px;
+    line-height: 20px;
 }
-.airbnb-inc, .details {
+.airbnb-inc, .airbnb-legal-details {
     font-size: 12px;
     color: rgb(41, 41, 41);
     }
 
-.details p {
-margin-right: 5px;
-line-height: 20px;
-}
-
-.icon-buttons {
+.bottom-page-icon-buttons {
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -231,7 +227,7 @@ margin: 10px;
 opacity: 0.5;
 }
 
-.container-icons {
+.bottom-page-icons-container {
     display: flex;
     justify-content:center;
 
